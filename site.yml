@@ -1,1 +1,9 @@
 ---
+
+- hosts: all
+  become_user: root
+  become: yes
+  roles:
+    - environment
+
+

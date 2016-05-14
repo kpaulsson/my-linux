@@ -1,0 +1,8 @@
+---
+
+- name: Upgrade environment
+  apt: update_cache=yes upgrade=yes
+
+- name: Install necessary packages
+  apt: name={{ item }} state=latest
+  with_items: "{{packages}}"

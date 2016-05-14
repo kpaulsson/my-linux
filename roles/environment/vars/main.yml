@@ -1,0 +1,26 @@
+---
+
+packages:
+- bash
+- binutils
+- bison
+- bzip2
+- coreutils
+- diffutils
+- findutils
+- gawk
+- gcc
+# Preinstalled
+#- glibc
+- grep
+- gzip
+# Preinstalled
+#- linux-kernel
+- m4
+- make
+- patch
+- perl
+- sed
+- tar
+- texinfo
+- xz-utils #xz
